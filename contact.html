@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | The Vintage Cafe</title>
+    <meta name="description" content="Contact The Vintage Cafe in Caledon Village by phone or through the website contact form.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="The Vintage Cafe home">
+        <img src="assets/vintage-cafe-logo-transparent.png" alt="The Vintage Cafe">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="story.html">Story</a>
+        <a href="visit.html">Visit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow dark">Contact</p>
+        <h1>Contact us</h1>
+        <p>Call the cafe or send a note for questions, larger orders, and catering-style requests.</p>
+      </section>
+
+      <section class="contact-layout">
+        <div class="info-panel">
+          <h2>Call or visit</h2>
+          <p><a href="tel:+17426888282">+1 (742) 688-8282</a></p>
+          <p>16560 Hurontario St<br><span class="address-line">Caledon Village, ON L7K 1W3</span></p>
+          <p>Open daily from 8 a.m.</p>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <label>
+            Name
+            <input type="text" name="name" autocomplete="name">
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" autocomplete="email">
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="6"></textarea>
+          </label>
+          <button class="button primary" type="submit">Send message</button>
+          <p class="form-status" aria-live="polite" data-form-status></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-info">
+        <img class="footer-logo" src="assets/vintage-cafe-logo-transparent.png" alt="The Vintage Cafe">
+        <p>16560 Hurontario St</p>
+        <p class="address-line">Caledon Village, ON L7K 1W3</p>
+        <p><a href="tel:+17426888282">+1 (742) 688-8282</a></p>
+      </div>
+      <div class="footer-hours">
+        <h2>Hours</h2>
+        <p><strong>Monday - Thursday</strong> <span class="hours-time">8 a.m. - 9:30 p.m.</span></p>
+        <p><strong>Friday - Sunday</strong> <span class="hours-time">8 a.m. - 10:30 p.m.</span></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
